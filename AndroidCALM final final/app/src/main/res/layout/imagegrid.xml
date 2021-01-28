@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"
+            />
+        <ImageView
+            android:id="@+id/img_2"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_3"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_4"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_5"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_6"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_7"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_8"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_9"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_10"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_11"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+        <ImageView
+            android:id="@+id/img_12"
+            android:src="@drawable/illus"
+            style="@style/cardStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

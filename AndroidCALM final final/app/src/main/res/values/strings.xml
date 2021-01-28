@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Memory Mania</string>
+    <string name="start">Start</string>
+    <string name="pokemon">Child Mode</string>
+    <string name="fetchButton">Fetch</string>
+    <string name="text_1">0 / 6 Matches</string>
+    <string name="timer">timer</string>
+</resources>
